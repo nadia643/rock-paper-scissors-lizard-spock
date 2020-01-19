@@ -79,6 +79,8 @@ function game(userSelection) {
         case "rockrock":
         case "paperpaper":
         case "scissorsscissors":
+        case "lizardlizard":
+        case "spockspock":
             draw(userSelection, computerSelection);
             break;
     }
