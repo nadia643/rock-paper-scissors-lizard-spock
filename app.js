@@ -8,7 +8,7 @@ const result_div = document.querySelector(".result > p");
 const rock_div = document.getElementById("r");
 const paper_div = document.getElementById("p");
 const scissors_div = document.getElementById("s");
-const lizard_div = document.getElementById("s");
+const lizard_div = document.getElementById("l");
 const spock_div = document.getElementById("sp");
 
 function computerPlay() {
