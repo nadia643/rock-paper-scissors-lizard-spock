@@ -12,13 +12,11 @@ const lizard_div = document.getElementById("s");
 const spock_div = document.getElementById("sp");
 
 function computerPlay() {
-    items = ['rock', 'paper', 'scissors', 'lizard', 'spock']
+    const items = ['rock', 'paper', 'scissors', 'lizard', 'spock']
     return items[Math.floor(Math.random() * items.length)]
 }
 const smallUserWord = "user".fontsize(3).sub();
 const smallCompWord = "comp".fontsize(3).sub();
-
-// const computerChoice = computerPlay();
 
 function convertToCapital(userSelection) {
     if (userSelection === "rock") return "Rock";
@@ -28,10 +26,10 @@ function convertToCapital(userSelection) {
     return "Spock";
 }
 function convertToCapital(computerSelection) {
-    if (userSelection === "rock") return "Rock";
-    if (userSelection === "paper") return "Paper";
-    if (userSelection === "scissors") return "Scissors";
-    if (userSelection === "lizard") return "Lizard";
+    if (computerSelection === "rock") return "Rock";
+    if (computerSelection === "paper") return "Paper";
+    if (computerSelection === "scissors") return "Scissors";
+    if (computerSelection === "lizard") return "Lizard";
     return "Spock";
 }
 
@@ -98,6 +96,12 @@ paper_div.addEventListener('click', function() {
 })
 scissors_div.addEventListener('click', function() {
     game("scissors");
+})
+lizard_div.addEventListener('click', function() {
+    game("lizard");
+})
+spock_div.addEventListener('click', function() {
+    game("spock");
 })
 
 };
