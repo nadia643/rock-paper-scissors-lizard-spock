@@ -106,4 +106,10 @@ spock_div.addEventListener('click', function() {
 
 };
 
+function message(userScore) {
+    if (userScore > 10) {
+        return alert("winner winner chicken dinner")
+    }
+}
+
 main();
