@@ -1,6 +1,14 @@
 let userScore = 0;
 let computerScore = 0;
 
+function message(userScore) {
+    if (userScore > 10) {
+        return alert("winner winner chicken dinner")
+    }
+}
+message(userScore); function goes here GOES HERE
+
+
 const userScore_span = document.getElementById("user-score");
 const computerScore_span = document.getElementById("computer-score");
 const scoreBoard_div = document.querySelector(".score-board");
@@ -105,11 +113,5 @@ spock_div.addEventListener('click', function() {
 })
 
 };
-
-function message(userScore) {
-    if (userScore > 10) {
-        return alert("winner winner chicken dinner")
-    }
-}
 
 main();
