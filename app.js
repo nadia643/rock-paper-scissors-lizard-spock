@@ -6,8 +6,6 @@ function message(userScore) {
         return alert("winner winner chicken dinner")
     }
 }
-message(userScore); function goes here GOES HERE
-
 
 const userScore_span = document.getElementById("user-score");
 const computerScore_span = document.getElementById("computer-score");
