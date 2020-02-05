@@ -72,6 +72,7 @@ header {
     margin: 0 15px;
     display: inline-block;
     transition: all 0.3s ease;
+    animation: moveInTop 2s ease-out;
 }
 .choice:hover {
     cursor: pointer;
@@ -91,4 +92,22 @@ header {
 #action-message:hover {
     color: rgb(238, 128, 120);
     transition: all 0.6s ease; 
+}
+
+@keyframes moveInTop {
+    0%{
+        opacity: 0;
+        transform: translateY(-100px);
+
+    }
+    70% {
+        transform: translateY(15px);
+
+        
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+
+    }
 }
