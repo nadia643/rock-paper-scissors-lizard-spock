@@ -8,7 +8,7 @@ body {
     background: lightslategray;
 }
 header {
-    background:rgb(238, 128, 120);
+    background: RGB(238, 120, 120);
     text-align: center;
     padding: 20px;
 }
@@ -24,12 +24,12 @@ header {
     position: relative;
 }
 .scoreboard:hover {
-    color: rgb(238, 128, 120);   
-    border-color: rgb(238, 128, 120);  
+    color:  RGB(238, 120, 120);   
+    border-color:  RGB(238, 120, 120);  
     transition: all 0.6s ease; 
 }
 .badge {
-    background: rgb(238, 128, 120);
+    background:  RGB(238, 120, 120);
     color: white;
     font-size: 14px;
     padding: 2px 10px;
@@ -56,7 +56,7 @@ header {
     font-weight: bold;
 }
 .result:hover {
-    color: rgb(238, 128, 120);
+    color:  RGB(238, 120, 120);
     transition: all 0.6s ease; 
 }
 .choices {
@@ -77,7 +77,7 @@ header {
 .choice:hover {
     cursor: pointer;
     background: lightslategray;
-    border-color: rgb(238, 128, 120);
+    border-color:  RGB(238, 120, 120);
     transition: all 0.6s ease; 
     transform: scale(1.2);
 }
@@ -90,7 +90,7 @@ header {
     margin-top: 20px;
 }
 #action-message:hover {
-    color: rgb(238, 128, 120);
+    color:  RGB(238, 120, 120);
     transition: all 0.6s ease; 
 }
 
