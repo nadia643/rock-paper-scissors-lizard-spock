@@ -1,0 +1,12 @@
+in app.js, trying to get the function to work to 
+do something when the user wins or gets 10 points
+
+
+this function works, if i attach it to an onClick on a random button in index.html 
+Need to make it be an event listener
+function winner() {
+    alert("winner winner chicken dinner")
+}
+
+
+Could do with changing it to sass

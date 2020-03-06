@@ -1,12 +1,6 @@
 let userScore = 0;
 let computerScore = 0;
 
-function message(userScore) {
-    if (userScore > 10) {
-        return alert("winner winner chicken dinner")
-    }
-}
-
 const userScore_span = document.getElementById("user-score");
 const computerScore_span = document.getElementById("computer-score");
 const scoreBoard_div = document.querySelector(".score-board");
@@ -92,6 +86,24 @@ function game(userSelection) {
 console.log(computerPlay());
 
 game();
+
+//this doesn't work yet - for what happens when someone wins
+// function message(userScore, computerScore) {
+//     if (userScore > computerScore) {
+//          alert("winner winner chicken dinner")
+//     }
+// }
+// message(userScore, computerScore);
+
+
+function winner() {
+    alert("winner winner chicken dinner")
+}
+
+userScore_span.addEventListener('click', function() {
+    winner();
+})
+
 
 function main() {
 rock_div.addEventListener('click', function() {

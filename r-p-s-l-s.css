@@ -111,3 +111,23 @@ header {
 
     }
 }
+
+.resetButton {
+    background: RGB(238, 120, 120);
+    height: 40px;
+    width: 100px;
+    font: arial;
+    font-weight: bold;
+    color: lightslategray;
+    float: center;
+}
+
+.resetButton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/*to center the button, wrapped it in a div called wrapper */
+.wrapper {
+    text-align: center;
+    padding: 30px;
+}
