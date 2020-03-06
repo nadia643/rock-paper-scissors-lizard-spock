@@ -87,6 +87,7 @@ console.log(computerPlay());
 
 game();
 
+  
 //this doesn't work yet - for what happens when someone wins
 // function message(userScore, computerScore) {
 //     if (userScore > computerScore) {
@@ -96,13 +97,18 @@ game();
 // message(userScore, computerScore);
 
 
-function winner() {
+function winner(userScore, computerScore) {
+    if (computerScore > userScore) {
+        alert (`You lose! Computer score: ${computerScore}pts, User score: ${userScore}pts`)
+    }
     alert("winner winner chicken dinner")
 }
 
-userScore_span.addEventListener('click', function() {
-    winner();
-})
+
+//this function works if the user clicks on the actual user score - could be helpful?
+// userScore_span.addEventListener('click', function() {
+//     winner();
+// })
 
 
 function main() {
