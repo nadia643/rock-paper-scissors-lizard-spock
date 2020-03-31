@@ -131,3 +131,10 @@ spock_div.addEventListener('click', function() {
 };
 
 main();
+
+//for the rules to open when button is clicked
+function popUpRules() {
+    let popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+
+}
