@@ -22,4 +22,4 @@ Rock, paper, scissors, lizard, Spock is a game of chance played by one user agai
 
                     (and as it always has) Rock crushes Scissors 
 
-I have used Javascript event listeners to manage the user's selection, along with html and css for design.
+I have used Javascript event listeners to manage the user's selection, along with html, and css for design.
